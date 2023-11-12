@@ -1,0 +1,15 @@
+* C:\Users\jorge\TC2_scripts\tc2\TS12\draft2.asc
+C1 N002 N001 {C1}
+V1 N003 0 SINE(0) AC 1
+R1 N001 N003 {R1}
+R2 N002 N001 {R2}
+R3 N002 0 {R3}
+C2 N002 0 {C2}
+.ac dec 1000 0.01 10
+.param C1=0.25/2/PI
+.param C2=1/2/PI
+.param R1=2
+.param R2=4
+.param R3=2/5
+.backanno
+.end
